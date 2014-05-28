@@ -53,3 +53,14 @@ $ ./nw app.nw
 ```
 
 Note: Windowsでは、`app.nw`を`nw.exe`にドラッグして開くことも出来ます。
+
+
+## Example 2. Native UI API
+
+node-webkitにはネイティブUIをコントロールするためのAPIがあります。
+それらをmenuやwindowのコントロールなどに使うことが出来ます。
+
+menuを例としてその方法を示したいと思います。
+
+
+
