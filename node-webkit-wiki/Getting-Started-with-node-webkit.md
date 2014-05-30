@@ -55,12 +55,26 @@ $ ./nw app.nw
 Note: Windowsでは、`app.nw`を`nw.exe`にドラッグして開くことも出来ます。
 
 
-## Example 2. Native UI API
+### Example 2. Native UI API
 
 node-webkitにはネイティブUIをコントロールするためのAPIがあります。
 それらをmenuやwindowのコントロールなどに使うことが出来ます。
 
 menuを例としてその方法を示したいと思います。
+
+
+### Example 3. Using node.js
+
+node.jsのモジュールをDOMから直接使うことが出来ます。
+なので、node-webkitでアプリを作ることは無限の可能性があります。
+
+## Run and Package Apps
+
+これで簡単なnode-webkitのアプリを書くことが出来るようになりました。
+次は実行のさせ方とパッケージングの方法について学びましょう。
+
+### Run the App
+
 
 
 
