@@ -171,8 +171,23 @@ document.write('Our computer is: ', os.platform())
 これで簡単なnode-webkitのアプリを書くことが出来るようになりました。
 次は実行のさせ方とパッケージングの方法について学びましょう。
 
+
 ### Run the App
 
+全てのプラットフォームで動かすには二つの方法があります。
+
+* フォルダーから。アプリのフォルダーを指定して実行します。
+* .nwファイルから(.zipファイルの名前を変更したもの)。アプリのファイルを指定して実行します。
+
+例:
+
+````bash
+nw path_to_app_dir
+nw path_to_app.nw
+````
 
 
+## Troubleshooting
+
+もしなにか問題があれば[Troubleshooting](https://github.com/rogerwang/node-webkit/wiki/Troubleshooting)を見てください。おそらくあなたの助けになるでしょう。
 
