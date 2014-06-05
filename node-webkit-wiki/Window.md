@@ -94,3 +94,31 @@ windowのサイズを取得・設定することが出来ます。
 windowのタイトルを取得・設定することが出来ます。
 
 
+### Window.menu
+
+メニューバーを取得・設定することが出来ます。menubarのタイプを指定したMenuを設定します。[詳しくはコチラ](https://github.com/rogerwang/node-webkit/wiki/Menu)
+
+
+### Window.isFullscreen
+
+_v0.3.5から_
+
+フルスクリーンモードかどうかを取得・設定します。
+
+
+### Window.isKioskMode
+
+キオスクモードかどうかを取得・設定します。
+
+
+### Window.zoomLevel
+
+_v0.4.1から_
+
+ページのズームの状態を取得・設定します。
+0が通常の状態で、値を増加させるとズームインして、減らすとズームアウトします。
+
+
+
+
+
